@@ -1,0 +1,35 @@
+# ── ENVIRONMENT VARIABLES ──────────────────
+
+# NEVER upload your API key to GitHub
+
+.env
+.env.local
+.env.production
+.env.*
+
+# ── NODE ────────────────────────────────────
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS FILES ────────────────────────────────
+
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ── EDITOR ──────────────────────────────────
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── LOGS ────────────────────────────────────
+
+logs/
+*.log
