@@ -1505,7 +1505,7 @@ Meals planned this week: ${mp}/21
   const messages=[...S.chatHistory.slice(-14).map(m=>({role:m.role,content:m.content})),{role:'user',content:text}];
 
   // ── CONFIGURE: replace with your Render URL after deploying ──
-  const SERVER_URL = 'https://Civic Ease.onrender.com/chat';
+  const SERVER_URL = 'https://Civic-Ease.onrender.com/chat';
 
   try{
     const res=await fetch(SERVER_URL,{
@@ -1541,7 +1541,7 @@ async function testApiKey(){
   const key=document.getElementById('pf-apikey').value.trim()||localStorage.getItem('civicease_apikey')||'';
   if(!key)return setKeyStatus('No key to test. Please enter your key first.','var(--r)');
   setKeyStatus('Testing connection…','var(--mu)');
-  const SERVER_URL='https://Civic Ease.onrender.com/chat';
+  const SERVER_URL='https://Civic-Ease.onrender.com/chat';
   try{
     const res=await fetch(SERVER_URL,{
       method:'POST',
