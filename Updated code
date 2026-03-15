@@ -1505,7 +1505,7 @@ Meals planned this week: ${mp}/21
   const messages=[...S.chatHistory.slice(-14).map(m=>({role:m.role,content:m.content})),{role:'user',content:text}];
 
   // ── CONFIGURE: replace with your Render URL after deploying ──
-  const SERVER_URL = 'https://YOUR-APP-NAME.onrender.com/chat';
+  const SERVER_URL = 'https://Civic Ease.onrender.com/chat';
 
   try{
     const res=await fetch(SERVER_URL,{
